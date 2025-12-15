@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachethan V | GCP ACE Certified & AI Enthusiast</title>
+    <meta name="description"
+        content="Portfolio of Sachethan V, a 19-year-old Undergrad proficient in ML, DL, Gen AI, and Agentic AI. GCP ACE Certified.">
+
+    <!-- Google Fonts: Outfit for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">Sachethan V.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="bounce-in">Sachethan V</h1>
+                    <h2 class="fade-in-up">GCP ACE Certified | Agentic AI & ML Developer</h2>
+                    <p class="bio-snippet fade-in-up delay-1">
+                        19-year-old undergraduate exploring the frontiers of Generative AI and Deep Learning.
+                    </p>
+                    <div class="cta-group fade-in-up delay-2">
+                        <a href="#projects" class="btn primary-btn">View Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-container fade-in-right">
+                    <div class="image-placeholder" style="padding: 0; border: none; overflow: hidden;">
+                        <img src="assets/profile.jpeg" alt="Sachethan V"
+                            style="width: 100%; height: 100%; object-fit: cover; opacity: 0.9;"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Your Photo Here<br><small>(assets/profile.jpg)</small></span>'; this.parentElement.style.display='flex';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a passionate 19-year-old undergraduate and <strong>Google Cloud Certified Associate
+                                Engineer (ACE)</strong>, bridging the gap between robust cloud infrastructure and the
+                            cutting edge of <strong>Generative & Agentic AI</strong>. Currently, I'm diving deep into
+                            building autonomous systems that can reason and act, not just process data.</p>
+                        <p style="margin-top: 1rem;">Beyond code, I serve as a <strong>Campus Ambassador at Global
+                                Academy of Technology, Bengaluru</strong>, actively contributing to the institution's
+                            growth and organizing tech events. As Curator of <strong>'The Python Development
+                                Standard'</strong>, I also collaborate with the wider developer community to share
+                            insights and push the boundaries of what's possible together.
+                        </p>
+                    </div>
+                    <!-- Optional Stats or Highlights -->
+                    <div class="stats-grid">
+
+
+                        <div class="stat-card glass-card">
+                            <h3>Certified</h3>
+                            <p>GCP ACE</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3>Focus</h3>
+                            <p>Gen AI & Agents</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section alternate-bg">
+            <div class="container">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Core & Cloud</h3>
+                        <div class="tags">
+                            <span class="tag">DSA & System Design</span>
+                            <span class="tag">Operating Systems</span>
+                            <span class="tag">GCP ACE</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Cloud Architecture</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & ML</h3>
+                        <div class="tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">Generative AI</span>
+                            <span class="tag">Agentic AI</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">RAG Pipelines</span>
+                            <span class="tag">TensorFlow/PyTorch</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web</h3>
+                        <div class="tags">
+                            <span class="tag">HTML5/CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Modern UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1: RAG Chatbot -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/rag_qa_chatbot.png" alt="RAG QA Chatbot UI" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>RAG QA Chatbot</h3>
+                            <p>Hosted on Cloud Run. A RAG-powered chatbot using Gemini API to answer queries from PDFs
+                                with high accuracy.</p>
+                            <div class="project-links">
+                                <a href="https://pdf-summarizer-317366632617.asia-southeast2.run.app/" target="_blank"
+                                    class="link-text">Try Live Demo &rarr;</a>
+                                <a href="https://github.com/Sachethanv/RAG-QA-Chatbot" target="_blank" class="link-text"
+                                    style="margin-top: 0.5rem; display: block; font-size: 0.9rem;">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Number Series Predictor -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/number_series_predictor.png" alt="Number Series Predictor UI"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Number Series Predictor</h3>
+                            <p>Web app predicting next numbers in sequences (AP, GP, Fibonacci) using mathematical
+                                algorithms.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Sachethanv/number-series-predictor" target="_blank"
+                                    class="link-text">View Project &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: TSLA Stock Predictor -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/tsla_stock_predictor.png" alt="TSLA Stock Predictor Chart"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>TSLA Stock Predictor</h3>
+                            <p>Machine learning model designed to forecast Tesla (TSLA) stock prices using historical
+                                market data.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Sachethanv/TSLA-stock-price-predictor" target="_blank"
+                                    class="link-text">View Project &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Car Number Plate Organiser -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/car_number_plate_recogniser.png" alt="Car Number Plate Recogniser Overlay"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Car Number Plate Organiser</h3>
+                            <p>Computer vision system using YOLO and Tesseract OCR to detect and recognize vehicle
+                                number plates.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Sachethanv/Car-Number-Plate_Recogniser" target="_blank"
+                                    class="link-text">View Project &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: Carrom Pawns Recogniser -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-container">
+                            <img src="assets/carrom_pawns_recogniser.png" alt="Carrom Pawns Recogniser Overlay"
+                                class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Carrom Pawns Recogniser</h3>
+                            <p>Real-time detection and classification of carrom pawns using YOLO-based object detection.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/Sachethanv/Carrom-Pawns-Recogniser" target="_blank"
+                                    class="link-text">View Project &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-intro">Interested in collaborating or discussing AI? Let's connect.</p>
+                <div class="contact-methods">
+                    <a href="mailto:Sachethanv@gmail.com" class="btn primary-btn">Email Me</a>
+                    <a href="https://www.linkedin.com/in/sachethan-v" target="_blank"
+                        class="btn secondary-btn">LinkedIn</a>
+                    <a href="https://github.com/Sachethanv" target="_blank" class="btn secondary-btn">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sachethan V. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
